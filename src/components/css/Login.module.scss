@@ -1,0 +1,24 @@
+form{
+    font-size: 3rem;
+    padding: 5rem;
+    margin: 10rem 20%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    .control{
+        margin: 1rem;
+        input{
+            padding: 1rem 1.5rem;
+            font-size: 3rem;
+        }
+    }
+    .invalid{
+        input{
+            background-color: red;
+            border-color: wheat;
+        }
+    }
+}
